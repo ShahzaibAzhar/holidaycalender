@@ -49,10 +49,6 @@ function App() {
       });
   }, [countryCode]);
 
-  //       `https://calendarific.com/api/v2/holidays?&api_key=5a711ddf03c11e27ae4735781499c4af131711f0&country=${countryCode}&year=2022`
-  //     const result = await data.response.holidays;
-  //     setHolidays(result);
-
   const localizer = momentLocalizer(moment);
 
   return (
